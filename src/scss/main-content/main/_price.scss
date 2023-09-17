@@ -1,0 +1,59 @@
+#price {
+    margin-left: 200px;
+  }
+
+  .price {
+    max-width: 1056px;
+    margin: auto;
+    margin-left: 39px;
+  
+    @media (max-width: 767px) {
+      display: none;
+    }
+
+    &__item {
+        padding-bottom: 16px;
+    }
+
+    &__title {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 14px;
+        font-family: "TT Lakes Condensed";
+    }
+
+    &__list {
+        height: 356px;
+        background-color: $white;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+        justify-content: space-between;
+    }
+
+    &__list-item {
+        padding: 9px 0px 9px 24px;
+        margin: 0;
+    }
+  }
+
+  hr {
+    width: 95%;
+  }
+
+  #term {
+    margin-right: 27%;
+  }
+
+  .btn-order {
+    margin-left: 20px;
+  }
+  
+  .repair-name {
+    min-width: 350px;
+  }
+
+  
+  

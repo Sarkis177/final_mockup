@@ -1,0 +1,20 @@
+.show-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: $background;
+  padding-left: 31px;
+  display: none;
+}
+
+.show-button__text,
+.hide-button__text {
+  font-family: "TT Lakes Condensed";
+  font-size: 16px;
+}
+
+.show {
+  display: flex;
+}
+
+

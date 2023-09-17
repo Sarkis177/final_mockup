@@ -1,0 +1,15 @@
+@include font-face("notosans", "notosans", 400);
+
+@font-face {
+    font-family: "TT Lakes Condensed";
+    src: url("../fonts/TTLakes-Medium.woff");
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "TT Lakes";
+    src: url("../fonts/TTLakes-Bold.woff");
+    font-weight: 100;
+    font-style: normal;
+  }

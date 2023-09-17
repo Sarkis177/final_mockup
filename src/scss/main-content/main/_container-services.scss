@@ -1,0 +1,168 @@
+.container-services {
+  background-color: $background;
+}
+
+.title {
+  display: flex;
+  padding-top: 25px;
+
+  &__name {
+    font-size: 28px;
+    font-family: "TT Lakes";
+    color: #1b1c21;
+    margin-left: 9px;
+  }
+}
+
+.big-screen-form {
+  display: none;
+
+  @media (min-width: 1119px) {
+    display: flex;
+    align-items: center;
+  }
+
+  &__subtitle {
+    font-family: "TT Lakes Condensed";
+    font-size: 16px;
+  }
+}
+
+.wrapper {
+  overflow: overlay;
+  margin-left: 16px;
+}
+
+.list {
+  display: flex;
+  width: max-content;
+
+  @media (min-width: 1119px) {
+    display: block;
+    width: initial;
+  }
+
+  &__item {
+    margin: 24px 25px 0px 0px;
+    font-family: "TT Lakes Condensed";
+    font-size: 16px;
+    color: $menu-text-color;
+    border: none;
+    background-color: inherit;
+
+    &_active {
+      padding: 8px;
+      border: 2px solid #b8ffec;
+      border-radius: 5px;
+      background-color: $white;
+    }
+  }
+}
+
+.wrapper-main {
+  padding-bottom: 32px;
+  border-bottom: 1px solid #d9fff5;
+
+  @media (min-width: 1119px) {
+    display: flex;
+  }
+}
+
+.text-wrapper {
+  margin-left: 24px;
+
+  @media (max-width: 340px) {
+    margin-left: 0px;
+  }
+
+  @media (min-width: 440px) {
+    display: inline-block;
+    padding-right: 38px;
+  }
+}
+
+.text {
+  font-size: 14px;
+  font-family: "TT Lakes Condensed";
+  width: 288px;
+  margin: 24px 0px 0px 16px;
+
+  @media (min-width: 440px) {
+    width: 310px;
+  }
+
+  @media (min-width: 1119px) {
+    width: 490px;
+  }
+}
+
+.img-mobile {
+  margin-top: 16px;
+}
+
+.text-medium-screen,
+.img-medium-screen,
+.text-big-screen,
+.img-big-screen {
+  display: none;
+}
+
+@media screen and (min-width: 440px) {
+  .text-medium-screen,
+  .img-medium-screen {
+    display: block;
+  }
+
+  .img-mobile,
+  .text-big-screen,
+  .img-big-screen {
+    display: none;
+  }
+
+  .img-wrapper {
+    display: inline-block;
+    margin-top: 32px;
+  }
+}
+
+@media screen and (min-width: 1119px) {
+  .text-medium-screen,
+  .img-mobile,
+  .img-medium-screen {
+    display: none;
+  }
+
+  .title {
+    justify-content: space-between;
+  }
+
+  .title__name {
+    margin-left: -40%;
+  }
+
+  .navigation__icon {
+    margin-left: 8px;
+  }
+
+  .text-big-screen {
+    display: block;
+  }
+
+  .img-big-screen {
+    display: block;
+  }
+
+  .img-wrapper {
+    margin-top: 0px;
+  }
+}
+
+.read-more {
+  display: flex;
+  margin: 16px 0px 0px 16px;
+
+  &__text {
+    font-family: "TT Lakes Condensed";
+    font-size: 16px;
+  }
+}

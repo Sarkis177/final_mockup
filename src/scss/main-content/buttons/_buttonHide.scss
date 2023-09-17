@@ -1,0 +1,17 @@
+.hide-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: $background;
+  padding-left: 31px;
+}
+
+.hide {
+  display: none;
+}
+
+.hide-medium {
+  @media (min-width: 1040px) {
+    display: inline-block;
+  }
+}

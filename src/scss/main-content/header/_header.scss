@@ -1,0 +1,10 @@
+.header {
+  height: 88px;
+  background-color: $white;
+  box-shadow: 0px 1px #d9fff5;
+  position: relative;
+
+  @media (min-width: 1119px) {
+    display: none;
+  }
+}

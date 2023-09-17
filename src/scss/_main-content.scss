@@ -1,0 +1,32 @@
+@import "./main-content/aside/aside";
+@import "./main-content/header/header";
+@import "./main-content/header/navigation";
+@import "./main-content/main/container-services";
+@import "./main-content/main/swiper";
+@import "./main-content/main/container-brands";
+@import "./main-content/main/price";
+@import "./main-content/footer/footer";
+@import "./main-content/feedback/feedback";
+@import "./main-content/buttons/buttonShow";
+@import "./main-content/buttons/buttonHide";
+
+.main-wrapper {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  
+    @media (min-width: 1440px) {
+      display: flex;
+    }
+  }
+  
+  .opacity {
+    opacity: 0.2;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  
+  

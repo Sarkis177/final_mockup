@@ -1,0 +1,46 @@
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 23px;
+
+  &__small-screen {
+    margin-top: 10px;
+  }
+
+  &__icon-big-screen {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 440px) {
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
+
+  .navigation__icon-big-screen {
+    display: block;
+  }
+
+  .navigation__icon-mobile {
+    display: none;
+  }
+
+  .navigation__big-screen {
+    display: flex;
+    margin-left: 24px;
+  }
+
+  .navigation__small-screen {
+    margin: 0;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navigation__icon {
+    margin-right: 20px;
+  }
+}

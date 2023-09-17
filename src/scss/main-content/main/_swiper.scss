@@ -1,0 +1,17 @@
+.swiper-wrapper {
+    background-color: $background;
+    padding: 24px 0 0 16px;
+    width: 100%;
+  }
+
+  .swiper-pagination {
+    --swiper-theme-color: #6c6e74;
+    position: relative !important;
+    top: -3px !important;
+  }
+  
+  .swiper {
+    @media (min-width: 468px) {
+      display: none !important;
+    }
+  }

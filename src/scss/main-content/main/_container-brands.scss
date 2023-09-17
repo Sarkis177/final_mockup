@@ -1,0 +1,44 @@
+.container-brands {
+  background-color: $background;
+  border-bottom: 1px solid #d9fff5;
+}
+
+#title {
+  font-family: "TT Lakes Condensed";
+  font-size: 16px;
+  color: $menu-text-color;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.title-repair {
+  background-image: linear-gradient(
+    90deg,
+    rgba(248, 248, 248, 1) 29%,
+    rgba(255, 255, 255, 1) 50%
+  );
+  padding: 16px 0 16px 32px;
+}
+
+.brand-list {
+  background-color: $background;
+  padding: 24px 0 0 16px;
+  width: 100%;
+  display: inline-block;
+
+  @media (max-width: 468px) {
+    display: none;
+  }
+
+  @media (max-width: 850px) and (min-width: 740px) {
+    min-width: 793px;
+  }
+
+  &__item {
+    padding-right: 16px;
+    padding-bottom: 16px;
+    display: inline-block;
+  }
+}
+
+
